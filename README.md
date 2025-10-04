@@ -5,14 +5,14 @@ files and exports class data to more accessible CSV or spreadsheet formats.
 
 ## Project Structure
 
-- **marks_reader_python/** – Primary Python implementation and utilities for decoding and exporting marks.
+- **marks_reader_python/** - Primary Python implementation and utilities for decoding and exporting marks.
   - `marks_reader.py` – Core conversion logic that parses configuration `.txt` files, decodes Real48 floating-point values, and
     generates CSV exports.
   - `convert_to_csv.py`, `display_class.py`, `display_spreadsheet.py`, `export_to_excel.py` – Helper scripts for specific export
     or display workflows.
   - `test_marks_reader.py`, `test_decode.py` – Unit tests covering the Real48 decoder and end-to-end conversion.
   - `output/` – Example output from running the conversion scripts.
-- `README_marks_reader.md` – Detailed documentation for the Python port, including implementation notes and verification steps.
+- `README_marks_reader.md` - Detailed documentation for the Python port, including implementation notes and verification steps.
 
 ## Getting Started
 
